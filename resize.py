@@ -19,4 +19,4 @@ try:
 		img = img.resize((int(x),int(y)))
 		img.save(f_img[0:-4]+"_" + str(x) + "x" + str(y) + ".png")
 except:
-	print("Some weird shit happened idk I didn't work this program out that far. Maybe one or more images is corrupted or not even an image. Make sure the folder only contains images")
+	print("Some weird shit happened and execution has failed lol. Maybe one or more images is corrupted or not even an image. Make sure the folder only contains images")
